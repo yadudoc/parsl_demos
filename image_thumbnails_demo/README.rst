@@ -9,11 +9,11 @@ Requirements:
 * Python3.5
 * Parsl::
 
-     pip3 install parsl
+    pip3 install parsl
 
 * ImageMagick::
 
-     apt-get install imagemagick
+    apt-get install imagemagick
 
 
 How to run
@@ -21,10 +21,10 @@ How to run
 
 * First make sure to download the images listed in image_sources.txt to the pics folder::
 
-     mkdir pics
-     cd pics
-     cat ../image_sources.txt | xargs wget
+    mkdir pics
+    cd pics
+    cat ../image_sources.txt | xargs wget
 
 * Run the script::
-    
-     
+
+    python3 convert.py
